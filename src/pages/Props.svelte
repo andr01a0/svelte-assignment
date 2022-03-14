@@ -1,10 +1,14 @@
 <script>
-	
+	import Declaringprops from "../components/Declaringprops.svelte";
+	import Defaultvalues from "../components/Defaultvalues.svelte";
+	import Spreadprops from "../components/Spreadprops.svelte";
 </script>
 
 <main>
 	<h1>Props</h1>
-	
+	<Declaringprops/>
+	<Defaultvalues/>
+	<Spreadprops/>
 </main>
 
 <style>

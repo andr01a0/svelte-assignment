@@ -1,10 +1,18 @@
 <script>
-	
+	import Ifblocks from "../components/Ifblocks.svelte";
+	import Elseblocks from "../components/Elseblocks.svelte";
+	import Elseifblocks from "../components/Elseifblocks.svelte";
+	import Eachblocks from "../components/Eachblocks.svelte";
+	import Keyedeachblocks from "../components/Keyedeachblocks.svelte";
 </script>
 
 <main>
 	<h1>Logic</h1>
-	
+	<Ifblocks/><br/>
+	<Elseblocks/>
+	<Elseifblocks/>
+	<Eachblocks/>
+	<Keyedeachblocks/>
 </main>
 
 <style>

@@ -1,10 +1,18 @@
 <script>
 	import Helloworld from "../components/Helloworld.svelte";
+	import Dynamicattributes from "../components/Dynamicattributes.svelte";
+	import Styling from "../components/Styling.svelte";
+	import Nestedcomponents from "../components/Nestedcomponents.svelte";
+	import Htmltags from "../components/Htmltags.svelte";
 </script>
 
 <main>
 	<h1>Introduction</h1>
 	<Helloworld/>
+	<Dynamicattributes/>
+	<Styling/>
+	<Nestedcomponents/>
+	<Htmltags/>
 </main>
 
 <style>

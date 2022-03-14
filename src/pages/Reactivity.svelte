@@ -1,10 +1,14 @@
 <script>
-	
+	import Reactiveassignments from "../components/Reactiveassignments.svelte";
+	import Reactivedeclarations from "../components/Reactivedeclarations.svelte";
+	import Reactivestatements from "../components/Reactivestatements.svelte";
 </script>
 
 <main>
 	<h1>Reactivity</h1>
-	
+	<Reactiveassignments/><br/>
+	<Reactivedeclarations/>
+	<Reactivestatements/>
 </main>
 
 <style>

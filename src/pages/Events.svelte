@@ -1,10 +1,18 @@
 <script>
-	
+	import Domevents from "../components/Domevents.svelte";
+	import Inlinehandlers from "../components/Inlinehandlers.svelte";
+	import Eventmodifiers from "../components/Eventmodifiers.svelte";
+	import Componentevents from "../components/Componentevents.svelte";
+	import Eventforwarding from "../components/Eventforwarding.svelte";
 </script>
 
 <main>
 	<h1>Events</h1>
-	
+	<Domevents/>
+	<Inlinehandlers/>
+	<Eventmodifiers/><br/>
+	<Componentevents/><br/>
+	<Eventforwarding/>
 </main>
 
 <style>
